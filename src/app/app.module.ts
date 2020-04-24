@@ -18,6 +18,7 @@ import { ResponseService } from './services/response.service';
 import { UserService } from './services/user.service';
 import { DonationService } from './services/donation.service';
 import { environment } from '../environments/environment';
+import { WelcomeComponent } from './user/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { environment } from '../environments/environment';
     NotificationsComponent,
     HistoryComponent,
     UserComponent,
-    DonateComponent
+    DonateComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
